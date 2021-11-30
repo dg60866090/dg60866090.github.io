@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "jihye's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "jihye"
-description              : "An amazing website."
+description              : "Welcome to jihye's blog"
 url                      : "https://dg60866090.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,9 +102,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jihye"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "개발자 어린이 = **개린이**의 하루하루 공부 이야기"
   location         : "Somewhere"
   email            :
   links:
