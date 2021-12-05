@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="css/get_api.css" rel="stylesheet">
+    <title>api 불러오기 테스트</title>
+</head>
+
+<body>
+    <h3>api 불러오기! 버튼을 클릭하세요. </h3>
+    <div onclick="getApi();" class="get_api_btn">api 받아오기</div>
+    <script>
+        function getApi() {
+            var settings = {
+                "url": "https://9ec5ea15-71e3-4d03-a1d8-c2a87f3e3387.mock.pstmn.io/test",
+                "method": "GET",
+                "timeout": 0,
+            };
+
+            $.ajax(settings).done(function (response) {
+                $('body').append('<div class="api_box">' + response +'</div>');
+            });
+        }
+    </script>
+</body>
+
+</html>
