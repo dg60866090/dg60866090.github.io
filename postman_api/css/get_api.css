@@ -2,5 +2,5 @@
     width: 150px; height: 50px;  line-height:50px; border-radius: 5px; cursor:pointer;
      transition: all .3s; background:#19962d; border:1px solid #fff; color:#fff;}
 .get_api_btn:hover{background:#fff; color: #19962d; border:1px solid #19962d; }
-div.api{display: inline-flex;align-items: center; margin-top: 50px; height:200px; padding:50px; box-sizing:border-box;
+div.api_box{display: inline-flex;align-items: center; margin-top: 50px; height:200px; padding:50px; box-sizing:border-box;
 text-align:center; background:#eee;}
