@@ -35,4 +35,4 @@
 .card .card_info .user_wrap {display:flex; align-items: center;}
 .card .card_info .user_img{width: 27px;height: 27px; border-radius: 100%; background-image: url('../img/Avatar.png'); background-size: 100% auto; background-position: center;}
 .card .card_info .user_id{margin-left: 3px; overflow:hidden; text-overflow:ellipsis; white-space: nowrap; font-size: 14px; font-weight: bold; color: #000;}
-.card .card_info .info{float: right;}
+.card .card_info .info{float: right; display:flex; align-items: center;}
