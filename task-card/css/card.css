@@ -1,0 +1,38 @@
+.gr{background-color:#27AE60;}
+.red{background-color:#EB5757;}
+.heart{background-image: url('../img/heart.png'); }
+.heart.on{background-image: url('../img/heart_on.png'); }
+.comment{ background-image: url('../img/message-circle.png'); }
+
+.card_wrap{margin: 50px;}
+.card{display:inline-block; width: 100%; max-width: 280px; border-radius: 8px;overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); vertical-align:top;}
+
+
+/* card title */
+.card .title{
+    padding: 10px; box-sizing: border-box;
+}
+.card .title .flag{display:inline-block;padding:5px 10px; box-sizing: border-box; font-size: 10px; font-weight: bold; color: #fff; border-radius: 8px;}
+
+.card .title h1{padding:5px 0;font-size: 24px; font-weight: bold; color: #000;} 
+.card .title .author{font-size: 14px; color: #4f4f4f;}
+
+
+/* card content */
+.card .content{padding: 12px 15.5px;}
+.card .content h3{font-size: 24px; font-weight: bold; color: #000;}
+.card .content .author{display:inline-block;padding:5px 0;font-size: 14px; color: #4F4F4F; }
+.card .content > div{font-size: 12px; line-height: 1.3; color: #333;}
+
+/* img */
+.card .img{width: 100%; height: 220px; background-size: 100% auto; background-position: center; background-image: url('../img/Image1.png'); background-repeat: no-repeat;}
+
+/* card_info */
+.card .card_info .info > span{display:inline-block;padding:5px 5px 5px 22px;width: 20px;height: 20px;background-size: 20px auto; background-repeat: no-repeat;background-position:left center; font-size: 12px; line-height: 20px; text-align: center; font-weight: bold; color: #000; cursor: pointer;}
+.card .card_info .info > span + span{margin-left: 3px;}
+.card .card_info{padding: 16px 17.5px; display:flex; justify-content:space-between;  box-sizing: border-box; overflow: hidden;}
+.card .card_info > div{display:inline-block; vertical-align: top;}
+.card .card_info .user_wrap {display:flex; align-items: center;}
+.card .card_info .user_img{width: 27px;height: 27px; border-radius: 100%; background-image: url('../img/Avatar.png'); background-size: 100% auto; background-position: center;}
+.card .card_info .user_id{margin-left: 3px; overflow:hidden; text-overflow:ellipsis; white-space: nowrap; font-size: 14px; font-weight: bold; color: #000;}
+.card .card_info .info{float: right;}
