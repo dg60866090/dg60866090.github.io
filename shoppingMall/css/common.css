@@ -1,0 +1,109 @@
+.bg {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/* 헤더 */
+header {
+  position: relative;
+  padding: 19px 23px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+}
+header h4 {
+  text-align: center;
+  font-weight: bold;
+}
+header .prev_btn {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/arrow.png");
+}
+
+
+/* --------------------- 메인 -------------------- */
+/* 테마 선택 */
+.theme_container {
+  padding: 68px 24px 40px;
+  box-sizing: border-box;
+  border-bottom: 8px solid #eee;
+}
+.theme_container .swiper-slide {
+  border-radius: 10px;
+  overflow: hidden;
+  width: auto;
+  background-image: url("../img/product.png");
+  background-size: cover;
+}
+.theme_container .swiper-slide > h3 {
+  color: #fff;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* 상품리스트 */
+.main_container .prdList {
+  padding: 40px 23px 62px 24px;
+  box-sizing: border-box;
+}
+.main_container .prdList .product + .product {
+  margin-top: 40px;
+}
+.main_container .prdList .product .prd_info h3 {
+  margin: 12px 0;
+  font-weight: bold;
+}
+
+
+
+/* --------------------- 상품 상세 -------------------- */
+/* prd_info */
+.prdDetail_container .prd_area{padding: 24px; box-sizing: border-box;}
+.prdDetail_container .prd_area > h3{margin-bottom: 8px; font-weight: bold;}
+
+/* prd_tab */
+.prd_tab{display: table;table-layout: fixed; width: 100%;border-top: 1px solid #eee; border-bottom: 1px solid #eee;}
+.prd_tab > a{display: table-cell; padding: 14px; box-sizing: border-box; text-align: center;}
+.prd_tab > a.select:before{content:""; display: block; width: 100%; height: 1px; background: #eee;}
+.prd_tab > a.select{background-color: #eee; font-weight: bold; border-bottom: 1px solid #eee;}
+
+/* prd_detail */
+.prd_detail_wrap{padding: 22px 12px;}
+.prd_detail_wrap > div{display: none;}
+.prd_detail_wrap > div.show{display: block;}
+/* prd review */
+.prd_review{padding:0 10px;}
+.prd_review > .review + .review{margin-top: 15px;}
+
+/* buy btn */
+.order_btn, .buy_btn{position:fixed; bottom: 0; left: 0; right: 0; 
+    padding: 24px;font-weight: bold; text-align: center;}
+
+
+
+/* --------------------- 장바구니 -------------------- */
+.basket_container {padding-bottom: 100px;}
+.order_list{padding-bottom: 30px;}
+
+
+
+/*팝업*/
+.popup_wrap{display:none; position:fixed;top:0;left:0; right:0; bottom:0; background: rgba(0, 0, 0, 0.22);}
+.popup{position:absolute; left:50%; top:50%;  background:#fff; transform:translate(-50%, -50%); 
+    padding:35px 30px 30px;width:calc(100vw - 150px); border-radius:8px; text-align: center;} 
+.popup .close_btn{display:inline-block;margin-top: 30px; padding:9px 10px 10px;border-radius: 4px;width:120px;}
+
+
+
+
+
+
+
+
+
+
