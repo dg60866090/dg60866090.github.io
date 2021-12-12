@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>장바구니</title>
+  <!-- CSS -->
+  <link href="../css/reset.css" rel="stylesheet"/>
+  <link href="../css/common.css" rel="stylesheet"/>
+  <!-- font CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <!-- swiper -->
+  <link
+rel="stylesheet"
+href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+  <script defer src="../js/common.js"></script>
+</head>
+<body>
+  <header>
+    <a href="javascript:history.go(-1);" class="prev_btn bg"></a>
+    <h4>장바구니</h4>
+  </header>
+  <div class="basket_container">
+    <!-- 주문 할 상품 목록 -->
+    <div class="order_list">
+      <div class="order">
+        <img src="../img/order_list.png" alt="주문 목록"/>
+      </div>
+      <div class="order">
+        <img src="../img/order_list.png" alt="주문 목록"/>
+      </div>
+      <div class="order">
+        <img src="../img/order_list.png" alt="주문 목록"/>
+      </div>
+    </div>
+    <div class="order_total">
+      <img src="../img/order_total.png" alt="주문 총합" />
+    </div>
+
+    <!-- 주문 버튼 -->
+    <a class="buy_btn bg_sub1" href="javascript:void(0)">주문하기</a>
+
+    <!-- 주문 팝업 -->
+    <div class="popup_wrap">
+      <div class="popup order">
+        <h3>주문되었습니다.</h3>
+        <span class="close_btn bg_sub1">확인</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
