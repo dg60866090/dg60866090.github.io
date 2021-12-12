@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>상품상세</title>
+    <!-- CSS -->
+    <link href="../css/reset.css" rel="stylesheet"/>
+    <link href="../css/common.css" rel="stylesheet"/>
+    <!-- font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- swiper -->
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="../js/common.js"></script>
+</head>
+<body>
+  <header>
+    <a href="javascript:history.go(-1);" class="prev_btn bg"></a>
+    <h4>코멘토 쇼핑</h4>
+  </header>
+  <div class="prdDetail_container">
+    <!-- 상품 상세 정보 상단 -->
+    <div class="prd_info">
+      <div class="prd_img">
+        <img src="../img/product.png" alt="상품 이미지"/>
+      </div>
+      <div class="prd_area">
+        <h3>인증샷을 부르는 춘식이 유리컵</h3>
+        <p class="prd_price">27,000원</p>
+      </div>
+    </div>
+    <!-- 탭 버튼 -->
+    <div class="prd_tab">
+      <a class="select" id="detail">상품 설명</a>
+      <a class="" id="review">상품 후기</a>
+    </div>
+    <!-- 상품 상세 -->
+    <div class="prd_detail_wrap">
+      <!-- 상품 상세 이미지 -->
+      <div class="prd_detail" data-id="detail">
+        <img src="../img/prd_detail.png" alt="상품 상세 이미지" />
+      </div>
+      <!-- 상품 리뷰 -->
+      <div class="prd_review" data-id="review">
+        <div class="review">
+          <img src="../img/review_1.png" alt="리뷰이미지" />
+        </div>
+        <div class="review">
+          <img src="../img/review_2.png" alt="리뷰이미지" />
+        </div>
+        <div class="review">
+          <img src="../img/review_1.png" alt="리뷰이미지" />
+        </div>
+      </div>
+  </div>
+  <!-- 주문 버튼  -->
+    <a class="order_btn bg_sub1" href="../basket/basket.html">장바구니 담기</a>
+  </div>
+</body>
+</html>
