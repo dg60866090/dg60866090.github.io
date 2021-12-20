@@ -47,7 +47,8 @@ table {
 	border-spacing: 0;
 }
 img{display: inline-block; vertical-align: top; font-size: 0; width: 100%; max-width: 100%;}
-span, a{display:inline-block; color: inherit; font-size: inherit; font-weight: inherit;}
+span, a{display:inline-block; color: inherit; 
+  font-size: inherit; font-weight: inherit;text-decoration: none;}
 
 
 .bg{background-size: 100% auto; background-position: center; background-repeat: no-repeat;}

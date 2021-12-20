@@ -1,5 +1,5 @@
 //swiper 
-var swiper = new Swiper(".container", {});
+// var swiper = new Swiper(".container", {});
 
 
 // graph width 조정
@@ -9,13 +9,13 @@ for(p = 0; p < grh_percents.length; p ++){
     const grph_percent_data = Number(grph_percent.dataset.percent);
     
     console.log(grph_percent_data)
-    if(0 < grph_percent_data <= 20){
+    if(0 < grph_percent_data < 20){
         grph_percent.style.background = "#FF5F00"
-    }else if(21 < grph_percent_data <= 40){
+    }else if(20 <= grph_percent_data < 40){
         grph_percent.style.background = "#FEB700"
-    }else if(41 < grph_percent_data <= 60){
+    }else if(40 <= grph_percent_data < 60){
         grph_percent.style.background = "#55ACEE"
-    }else if(61 < grph_percent_data <= 80){
+    }else if(60 <= grph_percent_data < 80){
         grph_percent.style.background = "#0A73C3"
     }else{
         grph_percent.style.background = "#005F59"
