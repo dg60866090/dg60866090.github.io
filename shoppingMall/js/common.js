@@ -1,4 +1,4 @@
-// swiper 
+//// swiper 
 const swiper = new Swiper('.theme_container .swiper-container', {
   // Optional parameters
   slidesPerView: "auto",
@@ -47,8 +47,10 @@ $(document).ready(function(){
 
 document.querySelector('.buy_btn').addEventListener('click',function(){
   document.querySelector('.popup_wrap').style.display="block";
+     document.querySelector('html').style.overflow="hidden";
 });
 
 document.querySelector('.close_btn').addEventListener('click',function(){
   document.querySelector('.popup_wrap').style.display="none";
+    document.querySelector('html').style.overflow="auto";
 });

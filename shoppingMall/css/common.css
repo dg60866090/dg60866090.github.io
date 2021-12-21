@@ -24,6 +24,7 @@ header .prev_btn {
   background-image: url("../img/arrow.png");
 }
 
+html{overflow-x: hidden; max-width: 100vw;}
 
 /* --------------------- 메인 -------------------- */
 /* 테마 선택 */
